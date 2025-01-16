@@ -8,6 +8,35 @@ body {
     margin: 0;
 }
 
+.button-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn.secondary {
+    background-color: #008CBA;
+  }
+  .btn a{text-decoration: none;
+    color: white;}
+
 .card {
     background: #fff;
     border-radius: 10px;
